@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Use A Public API</title>
+</head>
+<body>
+    <h1><%= content %></h1>
+    <form action="/" method="POST"> 
+        RIDDLES
+        <input type="text" name="answer" id="answer">
+        <input type="submit" name="submit" value="Submit Answer">
+        <input type="submit" name="check" value="Check Answer">
+        <input type="submit" name="reset" value="Another Riddle">
+    </form>
+    <h1><%= result %></h1>
+</body>
+</html>
