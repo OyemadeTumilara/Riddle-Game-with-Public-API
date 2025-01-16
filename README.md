@@ -7,7 +7,6 @@ This project is a web application that fetches random riddles using a public API
 - **index.js**: The main server file
 - **node_modules**: Contains npm packages (add this to `.gitignore` and do not upload it)
 - **public**
-  - **images/**: Currently empty
   - **styles/**: Contains `main.css`
 - **views**
   - **index.ejs**: Main view file
